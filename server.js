@@ -21,7 +21,7 @@ app.post("/test", async (req, res) => {
   res.json({ message: "hello from /test" });
 });
 
-app.post("/mega-search/api", async (req, res) => {
+app.post("/mega-search", async (req, res) => {
   console.log(req.body);
   const result = await megaSearch(req.body.message);
   res.json({ message: result.output });
