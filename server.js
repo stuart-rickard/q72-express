@@ -10,6 +10,19 @@ app.use(express.json());
 
 dotenv.config();
 
+const fs = require("fs");
+
+// load the cardsets from the json file
+let cardSetsData = "";
+fs.readFile("./cardSetsData.json", { encoding: "utf8" }, (err, data) => {
+  if (err) {
+    console.error("An error occurred:", err);
+    return;
+  }
+  cardSetsData = JSON.parse(data);
+  // console.log(cardSetsData);
+});
+
 app.get("/express", (req, res) => {
   console.log("get call to /express");
   res.send("q72 express server is running");
@@ -25,6 +38,21 @@ app.post("/mega-search", async (req, res) => {
   console.log(req.body);
   const result = await megaSearch(req.body.message);
   res.json({ message: result.output });
+});
+
+app.post("/flashcards/v1", (req, res) => {
+  const clientCode = req.body.code;
+  console.log(clientCode);
+  if (clientCode === "g") {
+    const responseData = {
+      message: "Access code accepted",
+      cardSets: cardSetsData,
+    };
+    // console.log(responseData);
+    res.json(responseData);
+  } else {
+    res.status(401).send("Unauthorized");
+  }
 });
 
 const PORT = process.env.PORT || 3000;

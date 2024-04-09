@@ -1,0 +1,296 @@
+[
+  {
+    "id": "7270aef9-4ca7-4ec9-b440-87f5ec255a0b",
+    "name": "Spanish",
+    "flashcards": {
+      "23e3c332-a3c0-4e6b-9190-96e097ca1334": {
+        "id": "23e3c332-a3c0-4e6b-9190-96e097ca1334",
+        "front": "hola",
+        "back": "hello"
+      },
+      "fc59255d-7d6b-4f37-b19e-d93717ed3b54": {
+        "id": "fc59255d-7d6b-4f37-b19e-d93717ed3b54",
+        "front": "adiós",
+        "back": "goodbye"
+      },
+      "fe4dd5d0-ca0d-4424-9c65-d740c5c53fc1": {
+        "id": "fe4dd5d0-ca0d-4424-9c65-d740c5c53fc1",
+        "front": "gracias",
+        "back": "thank you"
+      },
+      "b8ac8ec8-a1a4-41a4-b3c7-4165258ad05d": {
+        "id": "b8ac8ec8-a1a4-41a4-b3c7-4165258ad05d",
+        "front": "por favor",
+        "back": "please"
+      },
+      "a1fe6cf1-127c-4248-b7d2-2380ef89b522": {
+        "id": "a1fe6cf1-127c-4248-b7d2-2380ef89b522",
+        "front": "sí",
+        "back": "yes"
+      },
+      "8bdf931e-13f2-477f-9909-3f9c9167c24c": {
+        "id": "8bdf931e-13f2-477f-9909-3f9c9167c24c",
+        "front": "no",
+        "back": "no"
+      },
+      "22379f0c-848e-444a-8bf9-0f243789eb6b": {
+        "id": "22379f0c-848e-444a-8bf9-0f243789eb6b",
+        "front": "buenos días",
+        "back": "good morning"
+      },
+      "aba8fb2d-60b8-40d9-ac34-07265b0cf5fd": {
+        "id": "aba8fb2d-60b8-40d9-ac34-07265b0cf5fd",
+        "front": "buenas tardes",
+        "back": "good afternoon"
+      },
+      "3c8ceaa0-2b96-4e54-b7c5-ed38339f9ff9": {
+        "id": "3c8ceaa0-2b96-4e54-b7c5-ed38339f9ff9",
+        "front": "buenas noches",
+        "back": "good evening"
+      },
+      "1e00931e-5d40-4282-8521-b5c2e5f04c97": {
+        "id": "1e00931e-5d40-4282-8521-b5c2e5f04c97",
+        "front": "hasta luego",
+        "back": "see you later"
+      }
+    }
+  },
+  {
+    "id": "d8ceac0d-a8f0-4336-930c-5fff865655bb",
+    "name": "German",
+    "flashcards": {
+      "264de03b-e444-4595-986d-8c10700adb4e": {
+        "id": "264de03b-e444-4595-986d-8c10700adb4e",
+        "front": "house",
+        "back": "Haus"
+      },
+      "f1413174-30bd-48c0-ac3c-8e1ee9280641": {
+        "id": "f1413174-30bd-48c0-ac3c-8e1ee9280641",
+        "front": "car",
+        "back": "Auto"
+      },
+      "9c4c3ede-bd8a-44b6-acb3-13b57e9a7a28": {
+        "id": "9c4c3ede-bd8a-44b6-acb3-13b57e9a7a28",
+        "front": "book",
+        "back": "Buch"
+      },
+      "89bb665f-1426-49e4-94d0-4bd206772338": {
+        "id": "89bb665f-1426-49e4-94d0-4bd206772338",
+        "front": "computer",
+        "back": "Computer"
+      },
+      "ba596230-e55a-4ac1-9734-c2c133c924c8": {
+        "id": "ba596230-e55a-4ac1-9734-c2c133c924c8",
+        "front": "dog",
+        "back": "Hund"
+      },
+      "0928712c-9063-442a-b66f-a2e6b8754481": {
+        "id": "0928712c-9063-442a-b66f-a2e6b8754481",
+        "front": "cat",
+        "back": "Katze"
+      },
+      "9392121f-a433-4ce8-a9bf-caf2eb54b295": {
+        "id": "9392121f-a433-4ce8-a9bf-caf2eb54b295",
+        "front": "tree",
+        "back": "Baum"
+      },
+      "9b900b7e-a906-4e7c-b1dd-aad910d87f1b": {
+        "id": "9b900b7e-a906-4e7c-b1dd-aad910d87f1b",
+        "front": "sun",
+        "back": "Sonne"
+      },
+      "59ee5602-c862-4e94-a226-3a64a7ce9af6": {
+        "id": "59ee5602-c862-4e94-a226-3a64a7ce9af6",
+        "front": "moon",
+        "back": "Mond"
+      },
+      "407beda5-f6db-40ab-93cd-806063c7068c": {
+        "id": "407beda5-f6db-40ab-93cd-806063c7068c",
+        "front": "water",
+        "back": "Wasser"
+      },
+      "c344e879-6324-4518-ab9d-db5f71af104a": {
+        "id": "c344e879-6324-4518-ab9d-db5f71af104a",
+        "front": "fire",
+        "back": "Feuer"
+      },
+      "0c3c9152-9ec3-488c-b8cf-ff5a8d45d048": {
+        "id": "0c3c9152-9ec3-488c-b8cf-ff5a8d45d048",
+        "front": "earth",
+        "back": "Erde"
+      }
+    }
+  },
+  {
+    "id": "7e2ad96f-cd00-4183-b4b8-b3dfbb25c71a",
+    "name": "Italian",
+    "flashcards": {
+      "ce0c287b-ae11-4882-9bf5-da5b929a5bf6": {
+        "id": "ce0c287b-ae11-4882-9bf5-da5b929a5bf6",
+        "front": "hello",
+        "back": "ciao"
+      },
+      "f0dbf803-05a3-4833-974d-a9df362ba8f6": {
+        "id": "f0dbf803-05a3-4833-974d-a9df362ba8f6",
+        "front": "goodbye",
+        "back": "arrivederci"
+      },
+      "b41e72d9-6f0b-46e4-be0b-d84ac23277cc": {
+        "id": "b41e72d9-6f0b-46e4-be0b-d84ac23277cc",
+        "front": "thank you",
+        "back": "grazie"
+      },
+      "1231decc-d909-4961-ba3d-c42e9f7cf86b": {
+        "id": "1231decc-d909-4961-ba3d-c42e9f7cf86b",
+        "front": "please",
+        "back": "per favore"
+      },
+      "2f6c9172-95bd-4d5a-a9c6-c65d2e12f4e2": {
+        "id": "2f6c9172-95bd-4d5a-a9c6-c65d2e12f4e2",
+        "front": "yes",
+        "back": "sì"
+      },
+      "2268ee50-d989-4ea0-a5b4-ed05cbba6e43": {
+        "id": "2268ee50-d989-4ea0-a5b4-ed05cbba6e43",
+        "front": "no",
+        "back": "no"
+      },
+      "6097d29c-ca8a-4008-8a32-3900540ff1c2": {
+        "id": "6097d29c-ca8a-4008-8a32-3900540ff1c2",
+        "front": "good morning",
+        "back": "buongiorno"
+      },
+      "3764a68f-9a87-4850-a1c8-8049e88006e3": {
+        "id": "3764a68f-9a87-4850-a1c8-8049e88006e3",
+        "front": "good afternoon",
+        "back": "buon pomeriggio"
+      },
+      "5b21e88d-55c5-4777-aeb5-db4cce62fbc9": {
+        "id": "5b21e88d-55c5-4777-aeb5-db4cce62fbc9",
+        "front": "good evening",
+        "back": "buona sera"
+      },
+      "51361492-a50b-4678-a181-7586d7964def": {
+        "id": "51361492-a50b-4678-a181-7586d7964def",
+        "front": "see you later",
+        "back": "ci vediamo dopo"
+      },
+      "bf3cce1a-588e-49cc-bbba-4274e6d0f32d": {
+        "id": "bf3cce1a-588e-49cc-bbba-4274e6d0f32d",
+        "front": "car",
+        "back": "macchina"
+      }
+    }
+  },
+  {
+    "id": "4df08bae-db27-4abd-8c1e-64a030b76d49",
+    "name": "French",
+    "flashcards": {
+      "34a72b0f-fbe4-4ae1-a593-b42b133292ca": {
+        "id": "34a72b0f-fbe4-4ae1-a593-b42b133292ca",
+        "front": "hello",
+        "back": "bonjour"
+      },
+      "7927d324-16cd-484f-a82a-1236fbdd704a": {
+        "id": "7927d324-16cd-484f-a82a-1236fbdd704a",
+        "front": "goodbye",
+        "back": "au revoir"
+      },
+      "20c6dfe8-3c81-4f56-a2f2-f9644644d296": {
+        "id": "20c6dfe8-3c81-4f56-a2f2-f9644644d296",
+        "front": "thank you",
+        "back": "merci"
+      },
+      "f6886d59-defd-4f7a-9d4c-58945cbf5ee8": {
+        "id": "f6886d59-defd-4f7a-9d4c-58945cbf5ee8",
+        "front": "please",
+        "back": "s'il vous plaît"
+      },
+      "e7ed752e-7137-4499-84f7-5c6cfe50a1da": {
+        "id": "e7ed752e-7137-4499-84f7-5c6cfe50a1da",
+        "front": "yes",
+        "back": "oui"
+      },
+      "a64db3ff-c044-4eaa-8cdc-f8b59fa8cc51": {
+        "id": "a64db3ff-c044-4eaa-8cdc-f8b59fa8cc51",
+        "front": "no",
+        "back": "non"
+      },
+      "d487b535-3934-4d56-904f-6d55fb874960": {
+        "id": "d487b535-3934-4d56-904f-6d55fb874960",
+        "front": "good morning",
+        "back": "bonjour"
+      },
+      "b7c2c11e-bcc7-4d50-b4a8-4c6ac5c0b551": {
+        "id": "b7c2c11e-bcc7-4d50-b4a8-4c6ac5c0b551",
+        "front": "good afternoon",
+        "back": "bon après-midi"
+      },
+      "7332fa5c-8b98-4fa9-aa9e-eadbb26f57ee": {
+        "id": "7332fa5c-8b98-4fa9-aa9e-eadbb26f57ee",
+        "front": "good evening",
+        "back": "bonsoir"
+      },
+      "c4f19cc8-7fcc-44bb-9677-37899e1690fb": {
+        "id": "c4f19cc8-7fcc-44bb-9677-37899e1690fb",
+        "front": "see you later",
+        "back": "à plus tard"
+      },
+      "d8850155-5dcd-48f4-affd-7826aa189dbf": {
+        "id": "d8850155-5dcd-48f4-affd-7826aa189dbf",
+        "front": "car",
+        "back": "voiture"
+      },
+      "4203b599-2654-4cc9-b42d-5e7d5803380b": {
+        "id": "4203b599-2654-4cc9-b42d-5e7d5803380b",
+        "front": "train",
+        "back": "train"
+      },
+      "7c47d693-9d81-4c08-bd06-f7cab1519de7": {
+        "id": "7c47d693-9d81-4c08-bd06-f7cab1519de7",
+        "front": "bus",
+        "back": "bus"
+      },
+      "c6dfb3af-e1eb-436d-b89f-3cd121ec823f": {
+        "id": "c6dfb3af-e1eb-436d-b89f-3cd121ec823f",
+        "front": "bicycle",
+        "back": "vélo"
+      },
+      "f2fc2998-3fc4-4ea1-bd4a-4c0497738515": {
+        "id": "f2fc2998-3fc4-4ea1-bd4a-4c0497738515",
+        "front": "motorcycle",
+        "back": "moto"
+      },
+      "901cb39f-a74f-4c5d-9bc7-49d8b0c0eb8d": {
+        "id": "901cb39f-a74f-4c5d-9bc7-49d8b0c0eb8d",
+        "front": "boat",
+        "back": "bateau"
+      },
+      "dfa7bbc6-ee37-4993-a920-c8ce55af0a58": {
+        "id": "dfa7bbc6-ee37-4993-a920-c8ce55af0a58",
+        "front": "airplane",
+        "back": "avion"
+      },
+      "c630c9b1-d094-4239-93b1-8d46943bed9a": {
+        "id": "c630c9b1-d094-4239-93b1-8d46943bed9a",
+        "front": "hotel",
+        "back": "hôtel"
+      },
+      "c664579f-f837-4b13-b9f3-b74e436d714f": {
+        "id": "c664579f-f837-4b13-b9f3-b74e436d714f",
+        "front": "restaurant",
+        "back": "restaurant"
+      },
+      "6d488ba2-81db-4365-949b-e2277fa4ec4e": {
+        "id": "6d488ba2-81db-4365-949b-e2277fa4ec4e",
+        "front": "coffee",
+        "back": "café"
+      },
+      "115749c9-033c-471d-91ec-80b48e8cbeba": {
+        "id": "115749c9-033c-471d-91ec-80b48e8cbeba",
+        "front": "wine",
+        "back": "vin"
+      }
+    }
+  }
+]
