@@ -3,6 +3,8 @@ import cors from "cors";
 import dotenv from "dotenv";
 import { megaSearch } from "./mega-search/mega-search.js";
 
+import fs from "fs";
+
 const app = express();
 
 app.use(cors());
@@ -10,18 +12,20 @@ app.use(express.json());
 
 dotenv.config();
 
-const fs = require("fs");
-
 // load the cardsets from the json file
 let cardSetsData = "";
-fs.readFile("./cardSetsData.json", { encoding: "utf8" }, (err, data) => {
-  if (err) {
-    console.error("An error occurred:", err);
-    return;
+fs.readFile(
+  "flashcards/cardSetsData.json",
+  { encoding: "utf8" },
+  (err, data) => {
+    if (err) {
+      console.error("An error occurred:", err);
+      return;
+    }
+    cardSetsData = JSON.parse(data);
+    console.log(cardSetsData);
   }
-  cardSetsData = JSON.parse(data);
-  // console.log(cardSetsData);
-});
+);
 
 app.get("/express", (req, res) => {
   console.log("get call to /express");
