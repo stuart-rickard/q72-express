@@ -2,8 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import { megaSearch } from "./mega-search/mega-search.js";
-
-import fs from "fs";
+import { getFlashcards } from "./flashcards/flashcards.js";
 
 const app = express();
 
@@ -11,21 +10,6 @@ app.use(cors());
 app.use(express.json());
 
 dotenv.config();
-
-// load the cardsets from the json file
-let cardSetsData = "";
-fs.readFile(
-  "flashcards/cardSetsData.json",
-  { encoding: "utf8" },
-  (err, data) => {
-    if (err) {
-      console.error("An error occurred:", err);
-      return;
-    }
-    cardSetsData = JSON.parse(data);
-    console.log(cardSetsData);
-  }
-);
 
 app.get("/express", (req, res) => {
   console.log("get call to /express");
@@ -44,13 +28,13 @@ app.post("/mega-search", async (req, res) => {
   res.json({ message: result.output });
 });
 
-app.post("/flashcards/v1", (req, res) => {
+app.post("/flashcards/v1", async (req, res) => {
   const clientCode = req.body.code;
   console.log(clientCode);
   if (clientCode === "g") {
     const responseData = {
       message: "Access code accepted",
-      cardSets: cardSetsData,
+      cardSets: await getFlashcards(),
     };
     // console.log(responseData);
     res.json(responseData);
