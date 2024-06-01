@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import { megaSearch } from "./mega-search/mega-search.js";
 import { getFlashcards } from "./flashcards/flashcards.js";
+import { reporterAPIHandler } from "./reporter-input-response/reporter-API-handler.js";
 
 const app = express();
 
@@ -41,6 +42,13 @@ app.post("/flashcards/v1", async (req, res) => {
   } else {
     res.status(401).send("Unauthorized");
   }
+});
+
+app.post("/reporter", async (req, res) => {
+  console.log("post call to /reporter");
+  console.log(req.body);
+  var response = await reporterAPIHandler(req.body);
+  res.json(response);
 });
 
 const PORT = process.env.PORT || 3000;
