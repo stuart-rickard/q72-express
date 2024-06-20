@@ -25,8 +25,8 @@ app.post("/test", async (req, res) => {
 
 app.post("/mega-search", async (req, res) => {
   console.log(req.body);
-  const result = await megaSearch(req.body.message);
-  res.json({ message: result.output });
+  const output = await megaSearch(req.body.message);
+  res.json({ message: output });
 });
 
 app.post("/flashcards/v1", async (req, res) => {
