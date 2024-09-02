@@ -29,6 +29,21 @@ app.post("/mega-search", async (req, res) => {
   res.json({ message: output });
 });
 
+app.post("/flashcards/v2", async (req, res) => {
+  const clientCode = req.body.code;
+  console.log(clientCode);
+  if (clientCode === "g") {
+    const responseData = {
+      message: "Access code accepted",
+      cardSets: await getFlashcards(),
+    };
+    // console.log(responseData);
+    res.json(responseData);
+  } else {
+    res.status(401).send("Unauthorized");
+  }
+});
+
 app.post("/flashcards/v1", async (req, res) => {
   const clientCode = req.body.code;
   console.log(clientCode);
