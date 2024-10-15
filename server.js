@@ -30,18 +30,11 @@ app.post("/mega-search", async (req, res) => {
 });
 
 app.post("/flashcards/v2", async (req, res) => {
-  const clientCode = req.body.code;
-  console.log(clientCode);
-  if (clientCode === "g") {
-    const responseData = {
-      message: "Access code accepted",
-      cardSets: await getFlashcards(),
-    };
-    // console.log(responseData);
-    res.json(responseData);
-  } else {
-    res.status(401).send("Unauthorized");
-  }
+  const responseData = {
+    message: "v2 flashcards",
+    cardSets: await getFlashcards("v2"),
+  };
+  res.json(responseData);
 });
 
 app.post("/flashcards/v1", async (req, res) => {
@@ -50,7 +43,7 @@ app.post("/flashcards/v1", async (req, res) => {
   if (clientCode === "g") {
     const responseData = {
       message: "Access code accepted",
-      cardSets: await getFlashcards(),
+      cardSets: await getFlashcards("v1"),
     };
     // console.log(responseData);
     res.json(responseData);

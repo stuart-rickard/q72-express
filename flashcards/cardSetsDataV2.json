@@ -1,0 +1,258 @@
+{
+  "collection": [
+    {
+      "id": "01925ed0-c686-7dc8-87af-41faeb114c0f",
+      "name": "Spanish",
+      "flashcards": {
+        "01925ed0-c681-7e3e-acb7-9775fbd1086f": {
+          "id": "01925ed0-c681-7e3e-acb7-9775fbd1086f",
+          "front": "Hola, ¿cómo estás?",
+          "back": "Hello, how are you?",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c683-7ddf-bccc-d013308bc068": {
+          "id": "01925ed0-c683-7ddf-bccc-d013308bc068",
+          "front": "Bien, gracias",
+          "back": "Fine, thank you",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c683-7a89-9c22-85f3afba93b7": {
+          "id": "01925ed0-c683-7a89-9c22-85f3afba93b7",
+          "front": "¿Cómo te llamas?",
+          "back": "What's your name?",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c683-7afc-87bb-1f4f4db2cf47": {
+          "id": "01925ed0-c683-7afc-87bb-1f4f4db2cf47",
+          "front": "Adiós",
+          "back": "Goodbye",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c683-7608-8dbd-a2aff862640d": {
+          "id": "01925ed0-c683-7608-8dbd-a2aff862640d",
+          "front": "Me llamo Juan",
+          "back": "My name is Juan",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c683-74d4-a320-2f513991ddcd": {
+          "id": "01925ed0-c683-74d4-a320-2f513991ddcd",
+          "front": "Buenas noches",
+          "back": "Good evening",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c683-7fa4-ba54-2a68032d0249": {
+          "id": "01925ed0-c683-7fa4-ba54-2a68032d0249",
+          "front": "Los árboles hablan cuando no miramos",
+          "back": "Trees talk when we aren't looking",
+          "history": { "frontResults": [], "backResults": [] }
+        }
+      },
+      "cardStatusMap": {
+        "cardStatusMap": {
+          "CardStatus.notPresented": [],
+          "CardStatus.newCards": [],
+          "CardStatus.oneTime": [],
+          "CardStatus.twoTimes": [],
+          "CardStatus.occasional": [],
+          "CardStatus.errorCorrection": []
+        }
+      }
+    },
+    {
+      "id": "01925ed0-c686-727e-af24-d558b13e766d",
+      "name": "French",
+      "flashcards": {
+        "01925ed0-c685-73be-b39f-b5ec1c0dd579": {
+          "id": "01925ed0-c685-73be-b39f-b5ec1c0dd579",
+          "front": "J'ai mal à la tête",
+          "back": "My head hurts",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7878-b84f-107837eaa6ee": {
+          "id": "01925ed0-c685-7878-b84f-107837eaa6ee",
+          "front": "Il a les yeux bleus",
+          "back": "He has blue eyes",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7c15-8c54-90bdb5ca38ba": {
+          "id": "01925ed0-c685-7c15-8c54-90bdb5ca38ba",
+          "front": "Je me brosse les dents chaque jour",
+          "back": "I brush my teeth every day",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7a21-af3b-7b492a178d0f": {
+          "id": "01925ed0-c685-7a21-af3b-7b492a178d0f",
+          "front": "Les mains sont sales",
+          "back": "The hands are dirty",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7276-9a08-ee0bdc371fe0": {
+          "id": "01925ed0-c685-7276-9a08-ee0bdc371fe0",
+          "front": "Elle a les cheveux longs et bouclés",
+          "back": "\"She has long",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7a99-81a0-839776d5a38a": {
+          "id": "01925ed0-c685-7a99-81a0-839776d5a38a",
+          "front": "Je me suis blessé le pied en jouant au football",
+          "back": "I hurt my foot playing soccer",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-722a-b50f-406ba8f6e2e8": {
+          "id": "01925ed0-c685-722a-b50f-406ba8f6e2e8",
+          "front": "Les enfants se lavent le visage",
+          "back": "The children wash their faces",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7353-85ac-da7f0f16a3bd": {
+          "id": "01925ed0-c685-7353-85ac-da7f0f16a3bd",
+          "front": "J'ai une cicatrice sur le genou",
+          "back": "I have a scar on my knee",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7756-93e6-5de24b960102": {
+          "id": "01925ed0-c685-7756-93e6-5de24b960102",
+          "front": "Je me suis coupé le doigt en cuisinant",
+          "back": "I cut my finger while cooking",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7229-aae9-fc45219c2178": {
+          "id": "01925ed0-c685-7229-aae9-fc45219c2178",
+          "front": "Le cœur bat vite",
+          "back": "The heart beats fast",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-726a-83c9-a1e59eaa8cf5": {
+          "id": "01925ed0-c685-726a-83c9-a1e59eaa8cf5",
+          "front": "Les oreilles servent à entendre",
+          "back": "Ears are used for hearing",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7f27-8782-8bdbbc750547": {
+          "id": "01925ed0-c685-7f27-8782-8bdbbc750547",
+          "front": "Elle a mis une bague à son doigt",
+          "back": "She put a ring on her finger",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7936-934e-c394f2e01137": {
+          "id": "01925ed0-c685-7936-934e-c394f2e01137",
+          "front": "J'ai besoin de reposer mon dos",
+          "back": "I need to rest my back",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7c4b-8565-10e286a5cd6e": {
+          "id": "01925ed0-c685-7c4b-8565-10e286a5cd6e",
+          "front": "Il a une barbe sur le menton",
+          "back": "He has a beard on his chin",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-71e3-90f5-d27e7db239ed": {
+          "id": "01925ed0-c685-71e3-90f5-d27e7db239ed",
+          "front": "Mes muscles me font mal après avoir couru",
+          "back": "My muscles hurt after running",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-71c7-b8e4-96dd3a8738f4": {
+          "id": "01925ed0-c685-71c7-b8e4-96dd3a8738f4",
+          "front": "Les poumons aident à respirer",
+          "back": "The lungs help us breathe",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7998-9609-2d0b19f741de": {
+          "id": "01925ed0-c685-7998-9609-2d0b19f741de",
+          "front": "Elle s'est peint les ongles",
+          "back": "She painted her nails",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-76a3-9440-980a32df286b": {
+          "id": "01925ed0-c685-76a3-9440-980a32df286b",
+          "front": "Je me suis foulé la cheville en jouant au basket",
+          "back": "I sprained my ankle playing basketball",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-77c6-9211-d0e262a378cc": {
+          "id": "01925ed0-c685-77c6-9211-d0e262a378cc",
+          "front": "Les sourcils donnent de l'expression au visage",
+          "back": "Eyebrows give expression to the face",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7fc9-9fb6-ffef340b3812": {
+          "id": "01925ed0-c685-7fc9-9fb6-ffef340b3812",
+          "front": "Il a de larges épaules",
+          "back": "He has broad shoulders",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7784-ad87-bace1f357130": {
+          "id": "01925ed0-c685-7784-ad87-bace1f357130",
+          "front": "L'estomac est vide",
+          "back": "The stomach is empty",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7d87-b081-44deaed05a3f": {
+          "id": "01925ed0-c685-7d87-b081-44deaed05a3f",
+          "front": "Les jambes sont fatiguées",
+          "back": "The legs are tired",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7e83-8ebc-8751b8c5e130": {
+          "id": "01925ed0-c685-7e83-8ebc-8751b8c5e130",
+          "front": "Le cou soutient la tête",
+          "back": "The neck supports the head",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7d77-969d-3d385f5c33db": {
+          "id": "01925ed0-c685-7d77-969d-3d385f5c33db",
+          "front": "Je me suis brûlé la langue avec le café chaud",
+          "back": "I burned my tongue with hot coffee",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7109-a61d-0dc6012c1851": {
+          "id": "01925ed0-c685-7109-a61d-0dc6012c1851",
+          "front": "Les lèvres sont sèches",
+          "back": "The lips are dry",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-702c-b495-6596fedf816f": {
+          "id": "01925ed0-c685-702c-b495-6596fedf816f",
+          "front": "J'ai besoin d'étirer mes bras",
+          "back": "I need to stretch my arms",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7a4e-9f59-501999cce72f": {
+          "id": "01925ed0-c685-7a4e-9f59-501999cce72f",
+          "front": "Le cerveau est un organe complexe",
+          "back": "The brain is a complex organ",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7066-a3dc-a6d9a1bfc98a": {
+          "id": "01925ed0-c685-7066-a3dc-a6d9a1bfc98a",
+          "front": "Je me suis cogné le front contre la porte",
+          "back": "I hit my forehead on the door",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7142-928f-5851b6b7e473": {
+          "id": "01925ed0-c685-7142-928f-5851b6b7e473",
+          "front": "Elle a de longs cils",
+          "back": "She has long eyelashes",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed0-c685-7892-9b74-37dd0356add0": {
+          "id": "01925ed0-c685-7892-9b74-37dd0356add0",
+          "front": "Mes genoux me font mal en montant les escaliers",
+          "back": "My knees hurt when climbing stairs",
+          "history": { "frontResults": [], "backResults": [] }
+        }
+      },
+      "cardStatusMap": {
+        "cardStatusMap": {
+          "CardStatus.notPresented": [],
+          "CardStatus.newCards": [],
+          "CardStatus.oneTime": [],
+          "CardStatus.twoTimes": [],
+          "CardStatus.occasional": [],
+          "CardStatus.errorCorrection": []
+        }
+      }
+    }
+  ]
+}
