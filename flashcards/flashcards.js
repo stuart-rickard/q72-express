@@ -5,10 +5,13 @@ async function getFlashcards(version) {
   switch (version) {
     case "v1":
       fileNameString = "flashcards/cardSetsDataV1.json";
+      break;
     case "v2":
       fileNameString = "flashcards/cardSetsDataV2.json";
+      break;
     default:
       console.log("Invalid version");
+      break;
   }
   // load the cardsets from the json file
   try {
