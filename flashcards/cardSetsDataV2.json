@@ -4,46 +4,148 @@
       "id": "01925ed0-c686-7dc8-87af-41faeb114c0f",
       "name": "Spanish",
       "flashcards": {
-        "01925ed0-c681-7e3e-acb7-9775fbd1086f": {
-          "id": "01925ed0-c681-7e3e-acb7-9775fbd1086f",
-          "front": "Hola, ¿cómo estás?",
-          "back": "Hello, how are you?",
+        "01925ed4-1d16-700c-a19d-c9d6330f8120": {
+          "id": "01925ed4-1d16-700c-a19d-c9d6330f8120",
+          "front": "Nosotros asistimos a clases de cerámica",
+          "back": "We attend pottery classes",
           "history": { "frontResults": [], "backResults": [] }
         },
-        "01925ed0-c683-7ddf-bccc-d013308bc068": {
-          "id": "01925ed0-c683-7ddf-bccc-d013308bc068",
-          "front": "Bien, gracias",
-          "back": "Fine, thank you",
+        "01925ed4-1d16-7860-9dbe-aea11cf2017a": {
+          "id": "01925ed4-1d16-7860-9dbe-aea11cf2017a",
+          "front": "El aire es fresco y limpio",
+          "back": "The air is fresh and clean",
           "history": { "frontResults": [], "backResults": [] }
         },
-        "01925ed0-c683-7a89-9c22-85f3afba93b7": {
-          "id": "01925ed0-c683-7a89-9c22-85f3afba93b7",
-          "front": "¿Cómo te llamas?",
-          "back": "What's your name?",
+        "01925ed4-1d16-7563-9360-86e7ca7bdd9d": {
+          "id": "01925ed4-1d16-7563-9360-86e7ca7bdd9d",
+          "front": "¡Por favor!",
+          "back": "Please!",
           "history": { "frontResults": [], "backResults": [] }
         },
-        "01925ed0-c683-7afc-87bb-1f4f4db2cf47": {
-          "id": "01925ed0-c683-7afc-87bb-1f4f4db2cf47",
-          "front": "Adiós",
-          "back": "Goodbye",
+        "01925ed4-1d16-7ba3-af1a-56dda7449566": {
+          "id": "01925ed4-1d16-7ba3-af1a-56dda7449566",
+          "front": "¡Allá tú!",
+          "back": "It's up to you!",
           "history": { "frontResults": [], "backResults": [] }
         },
-        "01925ed0-c683-7608-8dbd-a2aff862640d": {
-          "id": "01925ed0-c683-7608-8dbd-a2aff862640d",
-          "front": "Me llamo Juan",
-          "back": "My name is Juan",
+        "01925ed4-1d16-76a9-89fd-0f2ffabc23a3": {
+          "id": "01925ed4-1d16-76a9-89fd-0f2ffabc23a3",
+          "front": "Me duermo rápidamente",
+          "back": "I fall asleep quickly",
           "history": { "frontResults": [], "backResults": [] }
         },
-        "01925ed0-c683-74d4-a320-2f513991ddcd": {
-          "id": "01925ed0-c683-74d4-a320-2f513991ddcd",
-          "front": "Buenas noches",
-          "back": "Good evening",
+        "01925ed4-1d16-71dd-bef7-b74e3dc2d43a": {
+          "id": "01925ed4-1d16-71dd-bef7-b74e3dc2d43a",
+          "front": "el buffet libre",
+          "back": "the all-you-can-eat buffet",
           "history": { "frontResults": [], "backResults": [] }
         },
-        "01925ed0-c683-7fa4-ba54-2a68032d0249": {
-          "id": "01925ed0-c683-7fa4-ba54-2a68032d0249",
-          "front": "Los árboles hablan cuando no miramos",
-          "back": "Trees talk when we aren't looking",
+        "01925ed4-1d16-7f6b-a57b-86ce7b98959c": {
+          "id": "01925ed4-1d16-7f6b-a57b-86ce7b98959c",
+          "front": "el café descafeinado",
+          "back": "the decaffeinated coffee",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-75ff-834b-cb3b4d7d4826": {
+          "id": "01925ed4-1d16-75ff-834b-cb3b4d7d4826",
+          "front": "el tren de alta velocidad",
+          "back": "the high-speed train",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-720a-859c-3e4fec948209": {
+          "id": "01925ed4-1d16-720a-859c-3e4fec948209",
+          "front": "¡Felices sueños!",
+          "back": "Sweet dreams!",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-7ccd-81d6-adaa2c0e03b1": {
+          "id": "01925ed4-1d16-7ccd-81d6-adaa2c0e03b1",
+          "front": "Él es un jugador de baloncesto alto",
+          "back": "He is a tall basketball player",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-74c2-b77c-d993dbd81d79": {
+          "id": "01925ed4-1d16-74c2-b77c-d993dbd81d79",
+          "front": "Ella es una astronauta valiente",
+          "back": "She is a brave astronaut",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-7934-8a52-2d9bc0272253": {
+          "id": "01925ed4-1d16-7934-8a52-2d9bc0272253",
+          "front": "La gallina pone huevos",
+          "back": "The hen lays eggs",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-7ca7-b11b-220cb358c7e7": {
+          "id": "01925ed4-1d16-7ca7-b11b-220cb358c7e7",
+          "front": "Estoy embarazada",
+          "back": "I am pregnant",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-77a5-b400-aca22a13c52b": {
+          "id": "01925ed4-1d16-77a5-b400-aca22a13c52b",
+          "front": "la propina generosa",
+          "back": "the generous tip",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-7d72-940d-be6e79b337d6": {
+          "id": "01925ed4-1d16-7d72-940d-be6e79b337d6",
+          "front": "un batido de frutas",
+          "back": "a fruit smoothie",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-7499-ba4a-27d766cd533a": {
+          "id": "01925ed4-1d16-7499-ba4a-27d766cd533a",
+          "front": "El agricultor trabaja en el campo",
+          "back": "The farmer works in the field",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-7d2d-b496-f58da1a9e16d": {
+          "id": "01925ed4-1d16-7d2d-b496-f58da1a9e16d",
+          "front": "Estar como una cabra",
+          "back": "To be a bit crazy (literally: to be like a goat)",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-76b7-addd-679fe5a55711": {
+          "id": "01925ed4-1d16-76b7-addd-679fe5a55711",
+          "front": "Ella está enamorada de Juan",
+          "back": "She is in love with Juan",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-7813-befd-51d82ef94576": {
+          "id": "01925ed4-1d16-7813-befd-51d82ef94576",
+          "front": "¡Basta!",
+          "back": "Enough!",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-7c34-98a2-be4e8a8abde8": {
+          "id": "01925ed4-1d16-7c34-98a2-be4e8a8abde8",
+          "front": "Él tiene hombros anchos",
+          "back": "He has broad shoulders",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-7ea4-96cc-e02c08bb00f0": {
+          "id": "01925ed4-1d16-7ea4-96cc-e02c08bb00f0",
+          "front": "Mi cabeza me duele",
+          "back": "My head hurts",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-7457-b889-d310d025404f": {
+          "id": "01925ed4-1d16-7457-b889-d310d025404f",
+          "front": "El perro ladra fuerte",
+          "back": "The dog barks loudly",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-7105-82e2-9f82cbc00f67": {
+          "id": "01925ed4-1d16-7105-82e2-9f82cbc00f67",
+          "front": "El reloj marca las doce del mediodía",
+          "back": "The clock strikes twelve noon",
+          "history": { "frontResults": [], "backResults": [] }
+        },
+        "01925ed4-1d16-7831-a3dc-3171d2b36798": {
+          "id": "01925ed4-1d16-7831-a3dc-3171d2b36798",
+          "front": "El soldado defiende el país",
+          "back": "The soldier defends the country",
           "history": { "frontResults": [], "backResults": [] }
         }
       },
