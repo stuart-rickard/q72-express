@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
+import fetch from "node-fetch";
 import { megaSearch } from "./mega-search/mega-search.js";
 import { getFlashcards } from "./flashcards/flashcards.js";
 import { reporterAPIHandler } from "./reporter-input-response/reporter-API-handler.js";
@@ -57,6 +58,76 @@ app.post("/reporter", async (req, res) => {
   console.log(req.body);
   var response = await reporterAPIHandler(req.body);
   res.json(response);
+});
+
+app.post("/test/chat", async (req, res) => {
+  const { message } = req.body;
+
+  const response = await fetch("https://api.openai.com/v1/chat/completions", {
+    method: "post",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${process.env.REPORTER_OPENAI_API_KEY}`,
+    },
+    body: JSON.stringify({
+      model: "gpt-3.5-turbo",
+      messages: [{ role: "user", content: message }],
+      stream: true,
+    }),
+  });
+
+  res.setHeader("Content-Type", "text/event-stream");
+  res.setHeader("Cache-Control", "no-cache");
+
+  // Initialize variables to handle streaming data
+  let buffer = "";
+
+  response.body.on("data", (chunk) => {
+    buffer += chunk.toString();
+
+    // Split the buffer by newlines
+    const lines = buffer.split("\n");
+
+    // Keep the last partial line in the buffer
+    buffer = lines.pop();
+
+    for (const line of lines) {
+      const message = line.trim();
+
+      // Ignore empty lines
+      if (!message) continue;
+
+      // Stream finished
+      if (message === "data: [DONE]") {
+        return res.end();
+      }
+
+      if (message.startsWith("data: ")) {
+        const jsonString = message.replace("data: ", "");
+        try {
+          const parsed = JSON.parse(jsonString);
+          const content = parsed.choices[0].delta.content;
+          if (content) {
+            console.log(content);
+            if (content == " ") console.log("space");
+            res.write(`data: ${content}\n\n`);
+          }
+        } catch (error) {
+          // Handle JSON parsing errors
+          console.error("Error parsing JSON:", error);
+        }
+      }
+    }
+  });
+
+  response.body.on("end", () => {
+    res.end();
+  });
+
+  response.body.on("error", (error) => {
+    console.error("Error with OpenAI API stream:", error);
+    res.end();
+  });
 });
 
 const PORT = process.env.PORT || 3000;
