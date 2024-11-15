@@ -1,4 +1,4 @@
-import { gVars } from "./global-variables.js";
+import { gVars } from "../reporter-global-variables.js";
 
 async function callNarrator(chatInput) {
   await gVars.openai.beta.threads.messages.create(gVars.thread.id, {

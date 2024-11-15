@@ -1,4 +1,4 @@
-import { gVars } from "./global-variables.js";
+import { gVars } from "../reporter-global-variables.js";
 
 async function initializeImageAssistant() {
   gVars.imageAssistant = await gVars.openai.beta.assistants.create({

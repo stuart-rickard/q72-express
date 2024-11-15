@@ -2,7 +2,7 @@ import OpenAI from "openai";
 import {
   prompt_create_narrative_response,
   prompt_create_image_generation_prompt,
-} from "./prompts.js";
+} from "./utils/prompts.js";
 import dotenv from "dotenv";
 
 dotenv.config();
@@ -16,6 +16,7 @@ const openai = new OpenAI({
 let thread;
 let messages, message;
 let run;
+let stream;
 let narratorAssistant;
 var assistantInitialized = false;
 
@@ -34,6 +35,7 @@ let gVars = {
   messages: messages,
   message: message,
   run: run,
+  stream: stream,
   assistantInitialized: assistantInitialized,
   narratorAssistant: narratorAssistant,
   prompt_create_narrative_response: prompt_create_narrative_response,

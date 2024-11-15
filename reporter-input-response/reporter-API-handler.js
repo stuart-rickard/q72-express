@@ -1,11 +1,12 @@
 import { v4 as UUID } from "uuid";
 
-import { gVars } from "./utils/global-variables.js";
+import { gVars } from "./reporter-global-variables.js";
 
 import { getBusyMessage } from "./utils/busy-message.js";
 import { initializeAssistant } from "./utils/initialize-assistants.js";
 import { initializeImageAssistant } from "./utils/initialize-image-assistant.js";
 import { callNarrator } from "./utils/call-narrator.js";
+// import { streamNarrator } from "./utils/stream.js";
 import { callImageGenerator } from "./utils/call-image-generator.js";
 
 async function reporterAPIHandler(body) {
@@ -42,6 +43,7 @@ async function reporterAPIHandler(body) {
           gVars.busy = false;
           return { message: "assistants initialized" };
         case "respond to action":
+          // await streamNarrator(body.message);
           await callNarrator(body.message); // this updates gVars.message
           gVars.busy = false;
           return { message: gVars.message };

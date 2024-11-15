@@ -1,4 +1,4 @@
-import { gVars } from "./global-variables.js";
+import { gVars } from "../reporter-global-variables.js";
 
 async function initializeAssistant() {
   gVars.narratorAssistant = await gVars.openai.beta.assistants.create({
@@ -40,4 +40,5 @@ async function initializeAssistant() {
   gVars.assistantInitialized = true;
   console.log("assistant initialization complete");
 }
+
 export { initializeAssistant };

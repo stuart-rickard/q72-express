@@ -1,4 +1,4 @@
-import { gVars } from "./global-variables.js";
+import { gVars } from "../reporter-global-variables.js";
 
 async function callImageGenerator() {
   await gVars.openai.beta.threads.messages.create(gVars.imageThread.id, {
